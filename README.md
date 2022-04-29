@@ -2,6 +2,8 @@
 <img src="./public/img/logo.png" />
 </p>
 
+---
+
 # [OJT 2022 Portfolio](https://emberspec.com/)
 
 This project was built using 
