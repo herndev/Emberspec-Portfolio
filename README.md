@@ -1,4 +1,4 @@
-<center><img src="./public/img/logo.png" /></center>
+<center style="width:100%"><img src="./public/img/logo.png" /></center>
 
 # [OJT 2022 Portfolio](https://emberspec.com/)
 
