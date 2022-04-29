@@ -1,8 +1,6 @@
-# [ReactJS Portfolio](https://www.hernie-jabien.com)
+<img src="./public/img/logo.png" />
 
-<img src="./public/img/Screenshot.png" />
-<br />
-<br />
+# [OJT 2022 Portfolio](https://emberspec.com/)
 
 This project was built using 
 - <b>ReactJS</b> ( Easy to build front-end framework )
