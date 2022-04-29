@@ -1,5 +1,5 @@
-<p style="text-align:center">
-<img src="./public/img/logo.png" style="margin: 0 auto" />
+<p align="center">
+<img src="./public/img/logo.png" />
 </p>
 
 # [OJT 2022 Portfolio](https://emberspec.com/)
