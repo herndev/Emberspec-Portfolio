@@ -6,6 +6,8 @@
 
 # [OJT 2022 Portfolio](https://ojt2022-emberspec.hernd3v.com/) <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="25" height="25"/><img src="https://cultofthepartyparrot.com/flags/hd/iranparrot.gif" width="25" height="25"/><img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="25"/>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/602e1b38-fe8a-4591-aac7-433568704624/deploy-status)](https://app.netlify.com/sites/ojt2022-emberspec/deploys)
+
 This project was built using 
 - <b>ReactJS</b> ( Easy to build front-end framework )
 - <b>Bootstrap</b> ( Responsive and materialized design )
