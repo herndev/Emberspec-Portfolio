@@ -8,6 +8,7 @@ import Home from "./pages/home";
 import Resume from "./pages/resume";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
+import KylePage from "./personal-pages/kyle/kyle";
 import Footer from "./components/footer";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                 <Route path="/resume" component={Resume} />
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/profile-timajo" component={KylePage} />
               </Switch>
             </div>
 
