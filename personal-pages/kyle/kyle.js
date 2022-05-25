@@ -21,7 +21,6 @@ function KylePage() {
             <div className="profile-image text-center mb-3">
               <img
                 src={ProfileImage}
-                alt="timajo-profile"
                 className="timajo-image position-relative"
               />
             </div>
