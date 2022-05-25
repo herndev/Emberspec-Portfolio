@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.bg-section {
+  background: #f3f3f3;
+}
+
+.bg-alt {
+  background: green;
+}
+.bg-alt-2 {
+  background: blueviolet;
+}
+
+.text-gray {
+  color: #666666;
+}
+
+.text-blue {
+  color: #0569d7;
+}
+
+.text-orange {
+  color: #f3763a;
+}
+
+.text-blue-green {
+  color: #14c2ad;
+}
+
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.shadow {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.font-weight-100 {
+  font-weight: 100;
+}
+.font-weight-200 {
+  font-weight: 200;
+}
+.font-weight-300 {
+  font-weight: 300;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-600 {
+  font-weight: 700;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-800 {
+  font-weight: 800;
+}
+.font-weight-900 {
+  font-weight: 900;
+}
+
+/* #profile-timajo { */
+/* background: #dcdcdc; */
+/* } */
+
+/* #profile-timajo .personal-info {
+  background: #ffffff;
+} */
+
+#profile-timajo .personal-info .personal-info-content {
+  background: #ffffff;
+  border-radius: 15px;
+  /* height: 400px; */
+}
+
+/* #profile-timajo .personal-info .personal-info-content .image-container {
+  top: -100px;
+} */
+
+#profile-timajo .personal-info .personal-info-content .timajo-image {
+  margin-top: -100px;
+  width: 180px;
+  border-radius: 15px;
+  border: 2px solid #0569d7;
+}
+
+/* #profile-timajo .personal-info .personal-info-content .title h3 {
+  font-size: 25px;
+} */
+
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
