@@ -31,14 +31,6 @@ function Nav() {
           <div className="navbar-nav w-100">
             <ul className="nav-menu list-unstyled mb-0 list-inline">
               <li className="list-inline-item m-0">
-                <NavLink
-                  to="/resume"
-                  className="display-centery px-4 nav-item nav-link"
-                  activeClassName="nav-menu-active"
-                >
-                  Resume
-                </NavLink>
-              </li>
               <li className="list-inline-item m-0">
                 <NavLink
                   to="/portfolio"
@@ -48,6 +40,23 @@ function Nav() {
                   Portfolio
                 </NavLink>
               </li>
+                <NavLink
+                  to="/resume"
+                  className="display-centery px-4 nav-item nav-link"
+                  activeClassName="nav-menu-active"
+                >
+                  About Us
+                </NavLink>
+              </li>
+              {/* <li className="list-inline-item m-0">
+                <NavLink
+                  to="/portfolio"
+                  className="display-centery px-4 nav-item nav-link"
+                  activeClassName="nav-menu-active"
+                >
+                  Portfolio
+                </NavLink>
+              </li> */}
               {/* <li className="list-inline-item m-0">
                 <NavLink to="/blog" className="display-centery px-4 nav-item nav-link visible-md pt-2" activeClassName="nav-menu-active">
                   Blog
