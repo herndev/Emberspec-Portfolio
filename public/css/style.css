@@ -983,6 +983,10 @@ li.dot {
     .navbar-toggler {
         background: white;
     }
+    #profile-hernie .text-right .pr-3,
+    #profile-hernie .text-right .px-2 {
+        padding: 0px !important;
+    }
 }
 
 
