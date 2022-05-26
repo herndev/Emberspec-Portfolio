@@ -3,7 +3,7 @@ import React from 'react';
 // Sidebar
 function SideBar() {
     return (
-        <div className="glass-card side-bar">
+        <div className="glass-card side-bar hidden-md">
             <h4 className="name  p-3">
                 EMBERSPEC<br />
                 <small className="font-weight-normal">
