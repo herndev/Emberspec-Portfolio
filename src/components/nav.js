@@ -41,7 +41,7 @@ function Nav() {
                 </NavLink>
               </li>
                 <NavLink
-                  to="/resume"
+                  to="/about"
                   className="display-centery px-4 nav-item nav-link"
                   activeClassName="nav-menu-active"
                 >
