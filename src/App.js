@@ -10,6 +10,7 @@ import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 import KylePage from "./personal-pages/kyle/kyle";
 import Footer from "./components/footer";
+import HerniePage from "./personal-pages/hernie/hernie";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/profile-timajo" component={KylePage} />
+                <Route path="/profile-jabien" component={HerniePage} />
               </Switch>
             </div>
 
