@@ -5,18 +5,13 @@ function SideBar() {
   return (
     <div className="glass-card side-bar hidden-md">
       <h4 className="name p-3 m-0 pb-0">
-        {/* EMBERSPEC<br />
-                <small className="font-weight-normal">
-                    Interns 2022
-                </small> */}
-        <div className="bg-white text-orange py-1 crv-8 display-center">
+        <div className="bg-white text-orange py-2 crv-8 display-center">
           <img
             src="img/our_logo.png"
             alt=""
             className="img-fluid px-2"
             height={40}
           />
-          {/* <small style={{position: "relative", top: "5px", marginLeft: "8px", fontWeight: "bold"}}>Interns 2022</small> */}
         </div>
       </h4>
 
