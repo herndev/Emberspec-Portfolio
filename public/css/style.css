@@ -206,10 +206,10 @@ section {
 
 .side-bar .side-banner {
     background: #fff;
-    -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
+    /* -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
     clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
     -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
+    transform: translateY(-20px); */
 }
 
 .side-bar .key-points {
@@ -976,5 +976,11 @@ li.dot {
     #profile-hernie .top-100 .qoute {
         position: relative;
         bottom: -50px;
+    }
+    .navbar {
+        background: #F3763A;
+    }
+    .navbar-toggler {
+        background: white;
     }
 }
