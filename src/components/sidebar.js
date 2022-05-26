@@ -17,8 +17,8 @@ function SideBar() {
 
       <div className="px-3 pb-3">
         <img
-          src="img/me_head.png"
-          alt="Hernie Jabien"
+          src="img/400_400.jpg"
+          alt="Interns 2022"
           className="img-fluid side-banner crv-8"
         />
       </div>
