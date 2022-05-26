@@ -5,12 +5,12 @@ import Nav from "./components/nav";
 import SideBar from "./components/sidebar";
 import ContactForm from "./components/contactform";
 import Home from "./pages/home";
-import Resume from "./pages/resume";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 import KylePage from "./personal-pages/kyle/kyle";
 import HerniePage from "./personal-pages/hernie/hernie";
 import Footer from "./components/footer";
+import About from "./pages/about";
 
 function App() {
   return (
@@ -92,7 +92,7 @@ function App() {
             <div className="glass-card mt-4 content bg-white rm-md-0">
               <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/resume" component={Resume} />
+                <Route path="/about" component={About} />
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/profile-timajo" component={KylePage} />

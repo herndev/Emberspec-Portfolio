@@ -2,13 +2,13 @@ import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-function Resume() {
+function About() {
 
   return (
-    <div id="resume">
+    <div id="about">
       <section className="p-3">
         <h4 className="font-weight-bold text-primary-default display-inline">
-          Resume
+          About Us
         </h4>
         <div className="row">
           <div className="col-md-6">
@@ -121,4 +121,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default About;
