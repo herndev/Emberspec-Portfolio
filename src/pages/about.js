@@ -12,7 +12,7 @@ function About() {
         <br />
         <a href="/profile-jabien">Hernie Jabien</a>
         <br />
-        <a href="/profile-timajo">Kyyle Timajo</a>
+        <a href="/profile-timajo">Kyle Timajo</a>
       </section>
     </div>
   );
