@@ -74,7 +74,7 @@ function Nav() {
             </ul>
             <hr />
             <div className="social-menu form-inline ml-auto">
-              <ul className="list-unstyled mb-0 list-inline social-icons">
+              {/* <ul className="list-unstyled mb-0 list-inline social-icons">
                 <li className="list-inline-item">
                   <a
                     target="_blank"
@@ -111,7 +111,7 @@ function Nav() {
                     <i className="ion-social-instagram"></i>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
               <a
                 href="https://ko-fi.com/herndev"
                 target="_"
