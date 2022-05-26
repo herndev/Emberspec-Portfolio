@@ -24,7 +24,7 @@ function Portfolio() {
         ).then(function (jsonData) {
             setProjects(jsonData);
             // Join all projects and set it to visible projects by default
-            setVisibleProjects([].concat(jsonData.others).concat(jsonData.web).concat(jsonData.mobile));
+            setVisibleProjects([].concat(jsonData.testing).concat(jsonData.development).concat(jsonData.others));
         });
     };
 
@@ -42,7 +42,7 @@ function Portfolio() {
             setVisibleProjects(projects[selectedCategory]);
         } else {
             // Join all projects to visible projects
-            setVisibleProjects([].concat(projects.others).concat(projects.web).concat(projects.mobile));
+            setVisibleProjects([].concat(projects.testing).concat(projects.development).concat(projects.others));
         }
     };
 
@@ -65,8 +65,8 @@ function Portfolio() {
                 <div className="nav-tab p-1 px-3 mt-3 crv-8 bg-light">
                     <ul className="list-unstyled list-inline mb-0">
                         <li className="list-inline-item mr-3 btn py-2 active" id="menu_all" onClick={getByCategory}>All</li>
-                        <li className="list-inline-item mr-3 btn py-2" id="menu_web" onClick={getByCategory}>Websites</li>
-                        <li className="list-inline-item mr-3 btn py-2" id="menu_mobile" onClick={getByCategory}>Mobile Apps</li>
+                        <li className="list-inline-item mr-3 btn py-2" id="menu_testing" onClick={getByCategory}>Testing</li>
+                        <li className="list-inline-item mr-3 btn py-2" id="menu_development" onClick={getByCategory}>Development</li>
                         <li className="list-inline-item mr-3 btn py-2" id="menu_others" onClick={getByCategory}>Others</li>
                     </ul>
                 </div>

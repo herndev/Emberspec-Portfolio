@@ -21,6 +21,67 @@ function App() {
             <SideBar />
             <div className="hidden-md w-100">
               <ContactForm />
+              <div className="emberspec-info px-3 mt-5">
+                <div className="footer-logo">
+                  <div class="main-header text-orange about-widget">
+                    <div class="footer-logo">
+                      <a
+                        href="https://emberspec.com"
+                        className="display-inline-block"
+                      >
+                        <img
+                          src="https://emberspec.com/uploads/setting/logo.png"
+                          alt="Logo"
+                          style={{ height: "60px" }}
+                        />
+                      </a>
+                    </div>
+                    <div class="widget-content mt-4">
+                      <div class="pull-right upper-right clearfix">
+                        <div class="upper-column info-box ml-0">
+                          <div class="icon-box">
+                            {/* <span class="flaticon-clock"></span> */}
+                            <img src="img/time.png" alt="" />
+                          </div>
+                          <ul>
+                            <li>
+                              <strong>Office Time:</strong>
+                            </li>
+                            <li>Monday to Saturday 9:00am - 6:00pm</li>
+                          </ul>
+                        </div>
+
+                        <div class="upper-column info-box ml-0 my-3">
+                          <div class="icon-box">
+                            {/* <span class="flaticon-phone-call"></span> */}
+                            <img src="img/email.png" alt="" />
+
+                          </div>
+                          <ul>
+                            <li>
+                              <strong>Call Us:</strong>
+                            </li>
+                            <li>+63 927 867-6687</li>
+                          </ul>
+                        </div>
+
+                        <div class="upper-column info-box ml-0">
+                          <div class="icon-box">
+                            {/* <span class="flaticon-email"></span> */}
+                            <img src="img/call.png" alt="" />
+                          </div>
+                          <ul>
+                            <li>
+                              <strong>Email:</strong>
+                            </li>
+                            <li>help@emberspec.com</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-lg-9 col-md-8 rp-md-0">

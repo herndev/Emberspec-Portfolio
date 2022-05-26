@@ -984,3 +984,57 @@ li.dot {
         background: white;
     }
 }
+
+
+/* Additional from emberspec */
+
+.main-header .info-box {
+    position: relative;
+    float: left;
+    min-height: 56px;
+    margin-left: 50px;
+    font-size: 13px;
+    color: #777;
+    text-align: left;
+    padding: 0 0 20px 65px;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pull-right {
+    float: right;
+}
+
+.main-header .info-box .icon-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.main-header .info-box strong {
+    position: relative;
+    font-weight: 700;
+    color: #222;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.main-header .info-box>ul li {
+    position: relative;
+    line-height: 20px;
+    color: #777;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 400;
+}
