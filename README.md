@@ -13,7 +13,7 @@ This project was built using
 - <b>Bootstrap</b> ( Responsive and materialized design )
 - <b>Tiny-slider</b> ( Interactive and responsive carousel )
 - <b>Emailjs</b> ( Email service )
-
+ 
 ## Getting Started
 ### Dependencies:
 - <b>Nodejs</b>
