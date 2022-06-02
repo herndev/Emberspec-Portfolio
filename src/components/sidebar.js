@@ -24,28 +24,6 @@ function SideBar() {
       </div>
 
       <div className="key-points">
-        {/* <ul className="text-white pl-5 pr-2 list-unstyled">
-                    <li className="big"></li>
-                    <li>
-                        <span className="font-weight-bold">Contact: </span><br />
-                        <i className="ion-email text-white"></i>
-                        <span className="ml-2">herniejabien45@gmail.com</span><br />
-                        <i className="ion-ios-telephone text-white"></i>
-                        <span className="ml-2">09397724280</span>
-                    </li>
-                    <li>
-                        <span className="font-weight-bold">Web Development: </span><br />
-                        <span>HTML/CSS/Javascript, Wordpress, Laravel, ReactJs, Django, Vue</span>
-                    </li>
-                    <li>
-                        <span className="font-weight-bold">Mobile Application: </span><br />
-                        <span>Java, Flutter, React native</span>
-                    </li>
-                    <li>
-                        <span className="font-weight-bold">Databases: </span><br />
-                        <span>Firebase, Mysql, Monggo DB, Postgres SQL, Sqlite</span>
-                    </li>
-                </ul> */}
       </div>
     </div>
   );
