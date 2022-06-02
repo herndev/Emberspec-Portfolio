@@ -101,13 +101,13 @@ function HerniePage() {
                 </Link>
                 <Link
                   to={{
-                    pathname: "tel:+639397724280",
+                    pathname: "tel:+639123456789",
                   }}
                   target="_blank"
                   className="px-2 display-centery text-dark hover-underline-none"
                 >
                   <IoCall color="#00aa71" size={20} className="mr-2" />
-                  +639397724280
+                  +639123456789
                 </Link>
               </small>
             </div>
